@@ -18,9 +18,9 @@ import (
 const (
 	BucketName  = "your-bucket-name"
 	REGION      = "AWS_REGION"
-	FILE        = "/200MB.zip"
+	FILE        = "/300MB.zip"
 	PartSize    = 50_000_000
-	RETRIES     = 2
+	RETRIES     = 3
 	SNSTopicARN = "arn:aws:sns:your-region:your-account-id:your-sns-topic-name"
 )
 
